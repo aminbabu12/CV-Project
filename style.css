@@ -99,7 +99,7 @@ Personal section start
 }
 
 /*--------------------
-Personal section start
+Education section start
 --------------------*/
 
 .edu-template-left{
@@ -110,4 +110,27 @@ Personal section start
 .edu-template-right{
   float: right;
   width: 45%;
+}
+
+
+/*--------------------
+Footer section start
+--------------------*/
+
+.bottom-container{
+  background-color: rgb(46, 160, 160);
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.bottom-container a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+.bottom-container p{
+  color: white;
+  margin-top: 20px;
 }
