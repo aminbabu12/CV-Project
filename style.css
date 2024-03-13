@@ -62,3 +62,29 @@ hr{
   width: 100%;
   border-bottom: none;
 }
+
+/*--------------------
+Personal section start
+--------------------*/
+
+.content{
+  margin-bottom: 30px;
+}
+
+
+.left-div{
+  width: 30%;
+  float: left;
+}
+
+.right-div{
+  width: 70%;
+  float: left;
+}
+
+.common-hr{
+  border: 1px solid black;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
