@@ -15,7 +15,9 @@ body{
   padding: 20px;
 }
 
-/* Header Design Start */
+/*--------------------
+Header section start
+--------------------*/
 
 .profile-pic{
   width: 100px;
@@ -23,11 +25,17 @@ body{
   border: 3px solid teal;
   border-radius: 50%;
   float: left;
+  cursor: pointer;
 }
 
 .header-bio{
   float: left;
   padding: 25px;
+}
+
+.header-bio h1:hover{
+  color: brown;
+  cursor: pointer;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -88,4 +96,18 @@ Personal section start
   border-bottom: none;
   width: 100%;
   margin: 20px auto;
+}
+
+/*--------------------
+Personal section start
+--------------------*/
+
+.edu-template-left{
+  float: left;
+  width: 45%;
+}
+
+.edu-template-right{
+  float: right;
+  width: 45%;
 }
